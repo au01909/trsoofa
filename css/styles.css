@@ -96,11 +96,25 @@ header.site-header {
   justify-content: space-between;
 }
 
-.site-title {
+.site-title a {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+.site-title-kicker {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+.site-title-main {
   font-family: "Manrope", sans-serif;
   font-weight: 800;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   letter-spacing: 0.01em;
+  color: var(--ink);
 }
 
 .menu-toggle {
