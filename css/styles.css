@@ -254,7 +254,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .identity-panel {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 387 / 516;
   position: relative;
   background: var(--white);
   border: 1px solid var(--gray-light);
